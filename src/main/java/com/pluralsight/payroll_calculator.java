@@ -29,7 +29,7 @@ public class payroll_calculator {
         }
         else {
             float regular_pay = hours * pay_rate;
-            System.out.printf("%s Gross pay is: %.2f%n", full_name, regular_pay);
+            System.out.printf("%s Gross pay is: $%.2f%n", full_name, regular_pay);
         }
 
     }
